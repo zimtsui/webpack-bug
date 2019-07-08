@@ -90,7 +90,7 @@ module.exports = {
 you can clone the repo for checking.
 
 ```shell
-$git clone https://github.com/zimtsui/webpack-bug
+$git clone git@github.com:zimtsui/webpack-bug.git
 $cd ./webpack-bug
 $npm i
 $npm run build
