@@ -124,6 +124,14 @@ require('source-map-support/register');
 require('./other');
 ```
 
+if you use `exports` instead of `module.exports` to export, everything will be ok as well:
+
+```js
+// ./src/other.js
+exports.a = 1;
+// module.exports = { a: 1 };
+```
+
 
 <!-- A great way to do this is to provide your configuration via a GitHub repository -->
 <!-- The most helpful is a minimal reproduction with instructions on how to reproduce -->
